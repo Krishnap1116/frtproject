@@ -22,38 +22,41 @@ ALGORITHM USED:
 
 STEPS FOLLOWED IN BUILDING THE MODEL:
 
-• Given data set contains the pixel values of an image which 
-has a handwritten number in it. Our goal is to find that 
-handwritten number.
+• Given data set contains the pixel values of an image which has a handwritten number in it. Our goal is to find that handwritten number.
+
 • Each image has 784 pixels.
-• Necessary libraries like pandas, numpy, matplotlib.pyplot,seaborn 
-are imported.
-• Read the given data and analyzed it (it has 26391 rows and 
-785 columns).
+
+• Necessary libraries like pandas, numpy, matplotlib.pyplot,seaborn are imported.
+
+• Read the given data and analyzed it (it has 26391 rows and 785 columns).
+
 • The data has unique entries of digits 0,1,2,3,4,5,6,7,8,9.
-• Some digits are visualized by plotting them using 
-mayplotlib.pyplot taking the pixel values as inputs.
-• Divided the input and output data (the column ‘label’ is 
-the output and remaining all other columns are inputs).
+
+• Some digits are visualized by plotting them using mayplotlib.pyplot taking the pixel values as inputs.
+
+• Divided the input and output data (the column ‘label’ is the output and remaining all other columns are inputs).
+
 • Input has been scaled importing scale from sklearn.
+
 • Divided the given data into training and testing data.
+
 • Used SVC from sklearn.svm as classifier.
-• Started first trial as linear model taking kernel as 
-‘linear’.
-• Data is fit into the model and output is predicted. An 
-accuracy of 91.05% is achieved using linear model.
+
+• Started first trial as linear model taking kernel as ‘linear’.
+
+• Data is fit into the model and output is predicted. An accuracy of 91.05% is achieved using linear model.
+
 • Tried a non-linear model taking kernel as ‘poly’ kernel.
-• Data is fit into the model and output is predicted. An 
-accuracy of 93.11% is achieved using non-linear model 
-taking ‘poly’ kernel.
+
+• Data is fit into the model and output is predicted. An accuracy of 93.11% is achieved using non-linear model taking ‘poly’ kernel.
+
 • Tried another non-linear model taking RBF kernel.
-• Data is fit into the model and output is predicted. An 
-accuracy of 95.92% is achieved using non-linear model 
-taking ‘rbf’ kernel.
-• So, maximum accuracy of 95.92% is achieved using non-linear 
-‘rbf’ kernel.
-• Some pictures have been made visualizing the final model.
-The model gave an accuracy of 95.92%
+
+• Data is fit into the model and output is predicted. An accuracy of 95.92% is achieved using non-linear model taking ‘rbf’ kernel.
+
+• So, maximum accuracy of 95.92% is achieved using non-linear ‘rbf’ kernel.
+
+• Some pictures have been made visualizing the final model.The model gave an accuracy of 95.92%
 
 CONCLUSION:
 
