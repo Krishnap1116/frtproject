@@ -1,5 +1,5 @@
 # frtproject
-                                                           Handwritten Digit Recignition
+                                                      Handwritten Digit Recignition
 OBJECTIVE:
 
         Designing a project from the MNIST dataset to identify digit classification using the SVM algorithm.
