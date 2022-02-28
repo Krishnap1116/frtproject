@@ -1,0 +1,4 @@
+The data set used in this model is train.csv which is taken from kaggle.
+You can also test the model accuracy by taking different datasets available.
+Here is the link for dataset
+      https://www.kaggle.com/nishan192/mnist-digit-recognition-using-svm/data?select=train.csv
