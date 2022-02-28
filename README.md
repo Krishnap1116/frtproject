@@ -1,17 +1,21 @@
 # frtproject
                                                            Handwritten Digit Recignition
 OBJECTIVE:
+
         Designing a project from the MNIST dataset to identify digit classification using the SVM algorithm.
 
 PROBLEM STATEMENT:
+
             To develop a model using Support Vector Machine which would correctly classify the handwritten digits from 0-9 based on the pixel values given as features. 
             Given MNIST dataset, which is a large database of hand written digits. The 'pixel values' of each digit (image) comprise the features, and the actual 
             number between 0-9 is the label. Since each image is of 28 x 28 pixels, and each pixel forms a feature, there are 784 features.
 
 PLATFORM USED: 
+
           Used Google Colaboratory to make the .ipynb file.
 
 ALGORITHM USED: 
+
          SVM (Support Vector Machine) Algorithm. 
          “Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification and regression challenges. 
          However, it is mostly used in classification problems.
@@ -52,6 +56,7 @@ taking ‘rbf’ kernel.
 The model gave an accuracy of 95.92%
 
 CONCLUSION:
+
           A Machine learning model was built which predicts the digit  given in an image taking the pixel values of each image. It is achieved using 
           Support Vector Machine algorithm which works by creating a line or hyperplane that separates the data into classes. SVM is implemented using different kernels.
           An accuracy score of 95.92% is achieved using RBF kernel.
